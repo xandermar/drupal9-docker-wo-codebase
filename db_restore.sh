@@ -1,0 +1,1 @@
+cat backup.sql | docker exec -i drupal9_db /usr/bin/mysql -u root --password=rootpass drupal

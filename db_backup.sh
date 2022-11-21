@@ -1,0 +1,1 @@
+docker exec drupal9_db /usr/bin/mysqldump -u root --password=rootpass drupal > backup.sql
